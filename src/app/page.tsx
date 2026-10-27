@@ -349,12 +349,20 @@ const SERVICES: ServiceItem[] = [
       "https://drive.google.com/file/d/1ghJ67ieJ2n3iSzhk5Xe2527g5PJRbcWf/view?usp=sharing",
     samples: [
       {
-        id: "video-fallecidos-audio",
+        id: "video-fallecidos-audio-1",
         label: "🕊️ Video con Audio de Ser Querido",
         videoUrl:
           "https://drive.google.com/file/d/1ghJ67ieJ2n3iSzhk5Xe2527g5PJRbcWf/preview",
         externalVideoUrl:
           "https://drive.google.com/file/d/1ghJ67ieJ2n3iSzhk5Xe2527g5PJRbcWf/view?usp=sharing",
+      },
+      {
+        id: "video-fallecidos-audio-2",
+        label: "🤍 Video + Audio Fallecido",
+        videoUrl:
+          "https://drive.google.com/file/d/1E3iZ5PxEOB3uvib5tpTdlk_EjriHHRHh/preview",
+        externalVideoUrl:
+          "https://drive.google.com/file/d/1E3iZ5PxEOB3uvib5tpTdlk_EjriHHRHh/view?usp=sharing",
       },
     ],
     sampleHighlights: [
@@ -576,6 +584,28 @@ const SERVICES: ServiceItem[] = [
     illustration: "party-confetti",
     thumbnailUrl: "/thumbnails/hora-loca.jpg",
     thumbnailTag: "Intro Pantalla LED Fiesta",
+    videoUrl:
+      "https://drive.google.com/file/d/1E99sUG4pJUoW5URuWBbqJQmQXitSlcRl/preview",
+    externalVideoUrl:
+      "https://drive.google.com/file/d/1E99sUG4pJUoW5URuWBbqJQmQXitSlcRl/view?usp=sharing",
+    samples: [
+      {
+        id: "hora-loca-fiesta-boda",
+        label: "🎉 Fiesta - Boda",
+        videoUrl:
+          "https://drive.google.com/file/d/1E99sUG4pJUoW5URuWBbqJQmQXitSlcRl/preview",
+        externalVideoUrl:
+          "https://drive.google.com/file/d/1E99sUG4pJUoW5URuWBbqJQmQXitSlcRl/view?usp=sharing",
+      },
+      {
+        id: "hora-loca-boda-cristiana",
+        label: "💒 Fiesta Boda Cristiana",
+        videoUrl:
+          "https://drive.google.com/file/d/1oPz6bDPydtKSx980OqYOW-Lra3CtHDaH/preview",
+        externalVideoUrl:
+          "https://drive.google.com/file/d/1oPz6bDPydtKSx980OqYOW-Lra3CtHDaH/view?usp=sharing",
+      },
+    ],
     sampleHighlights: [
       "Cuenta regresiva explosiva de alto impacto visual y sonoro",
       "Animación estilo concierto para pantallas LED de quinceañeros, bodas y cumpleaños",
@@ -611,24 +641,34 @@ const SERVICES: ServiceItem[] = [
     illustration: "life-book",
     thumbnailUrl: "/thumbnails/historia-vida.jpg",
     thumbnailTag: "Documental Biográfico",
-    videoUrl: "https://www.tiktok.com/player/v1/7587621627387743496",
+    videoUrl:
+      "https://drive.google.com/file/d/1vffH9i3ZZCKKoM_9VTt518qJBAC24j1G/preview",
     externalVideoUrl:
-      "https://www.tiktok.com/@magicvoice10/video/7587621627387743496",
+      "https://drive.google.com/file/d/1vffH9i3ZZCKKoM_9VTt518qJBAC24j1G/view?usp=sharing",
     samples: [
       {
-        id: "historia-vida-doc",
-        label: "📖 Documental Biográfico Oficial",
-        videoUrl: "https://www.tiktok.com/player/v1/7587621627387743496",
-        externalVideoUrl:
-          "https://www.tiktok.com/@magicvoice10/video/7587621627387743496",
-      },
-      {
         id: "historia-vida-moana",
-        label: "🌺 Temática Moana",
+        label: "🌺 Temática Moana (Ejemplo 1)",
         videoUrl:
           "https://drive.google.com/file/d/1vffH9i3ZZCKKoM_9VTt518qJBAC24j1G/preview",
         externalVideoUrl:
           "https://drive.google.com/file/d/1vffH9i3ZZCKKoM_9VTt518qJBAC24j1G/view?usp=sharing",
+      },
+      {
+        id: "historia-vida-ejemplo-2",
+        label: "📖 Historia de Vida (Ejemplo 2)",
+        videoUrl:
+          "https://drive.google.com/file/d/1KW7NGqMC9DzZzO4hhWniDQO3GCNAf4qd/preview",
+        externalVideoUrl:
+          "https://drive.google.com/file/d/1KW7NGqMC9DzZzO4hhWniDQO3GCNAf4qd/view?usp=sharing",
+      },
+      {
+        id: "historia-vida-ejemplo-3",
+        label: "🎬 Historia de Vida (Ejemplo 3)",
+        videoUrl:
+          "https://drive.google.com/file/d/1VGOVjWsyDhG3b-3t6Bep1vg0iax4eup5/preview",
+        externalVideoUrl:
+          "https://drive.google.com/file/d/1VGOVjWsyDhG3b-3t6Bep1vg0iax4eup5/view?usp=sharing",
       },
     ],
     sampleHighlights: [
@@ -646,6 +686,55 @@ const SERVICES: ServiceItem[] = [
       badgeBg: "bg-orange-500/10 border-orange-300/70",
       badgeText: "text-orange-800",
       modalAccentGradient: "from-orange-500 to-rose-500",
+    },
+  },
+  {
+    id: 10,
+    category: "fiestas",
+    blockTitle: "Fiestas",
+    title: "Video Cumpleaños Adultos",
+    shortSubtitle: "Homenaje especial con fotos, música y momentos familiares",
+    badge: "🎂 Edición Emotiva",
+    description:
+      "Homenaje audiovisual personalizado para papá, mamá o abuelos en sus cumpleaños especiales con recopilación de fotos, música y dedicatorias familiares.",
+    recommendations: [
+      "El regalo más emotivo para 40, 50, 60, 70 o 80 años.",
+      "Nos envías las fotos familiares favoritas y anécdotas de vida.",
+    ],
+    whatsappText:
+      "Hola Magic Voice Studio, quiero cotizar un Video de Cumpleaños para Adultos",
+    illustration: "birthday-cake",
+    thumbnailUrl: "/thumbnails/cumpleanos.jpg",
+    thumbnailTag: "Cumpleaños Adultos",
+    videoUrl:
+      "https://drive.google.com/file/d/17Iv3Rws0jOYFt1FORATzSgE0hs3yHTVg/preview",
+    externalVideoUrl:
+      "https://drive.google.com/file/d/17Iv3Rws0jOYFt1FORATzSgE0hs3yHTVg/view?usp=sharing",
+    samples: [
+      {
+        id: "cumple-adultos-papa",
+        label: "🎂 Cumpleaños Papá",
+        videoUrl:
+          "https://drive.google.com/file/d/17Iv3Rws0jOYFt1FORATzSgE0hs3yHTVg/preview",
+        externalVideoUrl:
+          "https://drive.google.com/file/d/17Iv3Rws0jOYFt1FORATzSgE0hs3yHTVg/view?usp=sharing",
+      },
+    ],
+    sampleHighlights: [
+      "Edición emotiva con fotos de toda su vida y momentos familiares",
+      "Musicalización y dedicatoria personalizada",
+      "Listo para proyectar en pantalla durante la fiesta o reunión",
+    ],
+    style: {
+      pillBg: "bg-gradient-to-r from-purple-100/90 via-violet-50/85 to-indigo-50/60",
+      pillBorder: "border-purple-200/90 hover:border-purple-300",
+      pillShadow: "shadow-sm shadow-purple-100/60 hover:shadow-md hover:shadow-purple-200/60",
+      iconBoxBg: "bg-white border border-purple-200/80 shadow-2xs",
+      iconColor: "text-purple-600",
+      arrowBg: "bg-white text-purple-600 border border-purple-200 group-hover:bg-purple-600 group-hover:text-white",
+      badgeBg: "bg-purple-500/10 border-purple-300/70",
+      badgeText: "text-purple-800",
+      modalAccentGradient: "from-purple-600 to-indigo-500",
     },
   },
 ];

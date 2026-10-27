@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const WHATSAPP_NUMBER = "51939218802";
 
@@ -256,7 +256,7 @@ const TIKTOK_ALL_SERVICES: ServiceCardItem[] = [
       "Hola Magic Voice Studio, quiero cotizar el Video hablando de un ser querido",
     samples: [
       {
-        id: "video-fallecidos-audio",
+        id: "video-fallecidos-audio-1",
         label: "🕊️ Video con Audio de Ser Querido",
         driveEmbed:
           "https://drive.google.com/file/d/1ghJ67ieJ2n3iSzhk5Xe2527g5PJRbcWf/preview",
@@ -264,6 +264,16 @@ const TIKTOK_ALL_SERVICES: ServiceCardItem[] = [
           "https://drive.google.com/file/d/1ghJ67ieJ2n3iSzhk5Xe2527g5PJRbcWf/view?usp=sharing",
         whatsappMsg:
           "Hola Magic Voice Studio, vi el video con audio de ser querido en TikTok y deseo cotizar uno igual",
+      },
+      {
+        id: "video-fallecidos-audio-2",
+        label: "🤍 Video + Audio Fallecido",
+        driveEmbed:
+          "https://drive.google.com/file/d/1E3iZ5PxEOB3uvib5tpTdlk_EjriHHRHh/preview",
+        directUrl:
+          "https://drive.google.com/file/d/1E3iZ5PxEOB3uvib5tpTdlk_EjriHHRHh/view?usp=sharing",
+        whatsappMsg:
+          "Hola Magic Voice Studio, vi el Video + Audio de Fallecido en Drive y deseo cotizar uno igual",
       },
     ],
   },
@@ -387,6 +397,7 @@ const TIKTOK_ALL_SERVICES: ServiceCardItem[] = [
     id: 8,
     title: "Video Hora Loca Fiesta",
     shortSubtitle: "Apertura explosiva tipo concierto para encender la pista",
+    hasSampleBadge: true,
     iconType: "sparkles",
     pillBg: "bg-[#F0FDFA]",
     pillBorder: "border-[#99F6E4] hover:border-[#5EEAD4]",
@@ -396,11 +407,31 @@ const TIKTOK_ALL_SERVICES: ServiceCardItem[] = [
       "Hola Magic Voice Studio, quiero cotizar un Video para Hora Loca",
     samples: [
       {
-        id: "hora-loca-sample",
-        label: "🎉 Intro Explosiva para Pantallas LED",
+        id: "hora-loca-fiesta-boda",
+        label: "🎉 Fiesta - Boda",
+        driveEmbed:
+          "https://drive.google.com/file/d/1E99sUG4pJUoW5URuWBbqJQmQXitSlcRl/preview",
+        directUrl:
+          "https://drive.google.com/file/d/1E99sUG4pJUoW5URuWBbqJQmQXitSlcRl/view?usp=sharing",
+        whatsappMsg:
+          "Hola Magic Voice Studio, vi el Video de Hora Loca para Fiesta - Boda y quiero cotizarlo",
+      },
+      {
+        id: "hora-loca-boda-cristiana",
+        label: "💒 Fiesta Boda Cristiana",
+        driveEmbed:
+          "https://drive.google.com/file/d/1oPz6bDPydtKSx980OqYOW-Lra3CtHDaH/preview",
+        directUrl:
+          "https://drive.google.com/file/d/1oPz6bDPydtKSx980OqYOW-Lra3CtHDaH/view?usp=sharing",
+        whatsappMsg:
+          "Hola Magic Voice Studio, vi el Video de Hora Loca Fiesta Boda Cristiana y quiero cotizarlo",
+      },
+      {
+        id: "hora-loca-boda-avion",
+        label: "✈️ Video Boda Temática Avión",
         directUrl: "https://wa.me/51939218802",
         whatsappMsg:
-          "Hola Magic Voice Studio, quiero cotizar un Video explosivo para apertura de Hora Loca",
+          "Hola Magic Voice Studio, quiero cotizar el Video de Hora Loca para Boda Temática Avión",
       },
     ],
   },
@@ -418,22 +449,59 @@ const TIKTOK_ALL_SERVICES: ServiceCardItem[] = [
       "Hola Magic Voice Studio, quiero cotizar un Video Historia de Vida",
     samples: [
       {
-        id: "historia-vida-doc",
-        label: "📖 Documental Biográfico Oficial",
-        videoEmbedId: "7587621627387743496",
-        directUrl: "https://www.tiktok.com/@magicvoice10/video/7587621627387743496",
-        whatsappMsg:
-          "Hola Magic Voice Studio, vi el Video Historia de Vida en TikTok y quiero cotizar un documental familiar",
-      },
-      {
         id: "historia-vida-moana",
-        label: "🌺 Temática Moana",
+        label: "🌺 Temática Moana (Ejemplo 1)",
         driveEmbed:
           "https://drive.google.com/file/d/1vffH9i3ZZCKKoM_9VTt518qJBAC24j1G/preview",
         directUrl:
           "https://drive.google.com/file/d/1vffH9i3ZZCKKoM_9VTt518qJBAC24j1G/view?usp=sharing",
         whatsappMsg:
           "Hola Magic Voice Studio, vi el video historia de vida temática Moana y deseo cotizar uno igual",
+      },
+      {
+        id: "historia-vida-ejemplo-2",
+        label: "📖 Historia de Vida (Ejemplo 2)",
+        driveEmbed:
+          "https://drive.google.com/file/d/1KW7NGqMC9DzZzO4hhWniDQO3GCNAf4qd/preview",
+        directUrl:
+          "https://drive.google.com/file/d/1KW7NGqMC9DzZzO4hhWniDQO3GCNAf4qd/view?usp=sharing",
+        whatsappMsg:
+          "Hola Magic Voice Studio, vi el video historia de vida Ejemplo 2 y deseo cotizarlo",
+      },
+      {
+        id: "historia-vida-ejemplo-3",
+        label: "🎬 Historia de Vida (Ejemplo 3)",
+        driveEmbed:
+          "https://drive.google.com/file/d/1VGOVjWsyDhG3b-3t6Bep1vg0iax4eup5/preview",
+        directUrl:
+          "https://drive.google.com/file/d/1VGOVjWsyDhG3b-3t6Bep1vg0iax4eup5/view?usp=sharing",
+        whatsappMsg:
+          "Hola Magic Voice Studio, vi el video historia de vida Ejemplo 3 y deseo cotizarlo",
+      },
+    ],
+  },
+  {
+    id: 10,
+    title: "Video Cumpleaños Adultos",
+    shortSubtitle: "Homenaje especial con fotos, música y momentos familiares",
+    hasSampleBadge: true,
+    iconType: "cake",
+    pillBg: "bg-[#F5F3FF]",
+    pillBorder: "border-[#DDD6FE] hover:border-[#C4B5FD]",
+    iconColor: "text-[#7C3AED]",
+    arrowBg: "bg-[#7C3AED] text-white hover:bg-[#6D28D9]",
+    whatsappText:
+      "Hola Magic Voice Studio, quiero cotizar un Video de Cumpleaños para Adultos",
+    samples: [
+      {
+        id: "cumple-adultos-papa",
+        label: "🎂 Cumpleaños Papá",
+        driveEmbed:
+          "https://drive.google.com/file/d/17Iv3Rws0jOYFt1FORATzSgE0hs3yHTVg/preview",
+        directUrl:
+          "https://drive.google.com/file/d/17Iv3Rws0jOYFt1FORATzSgE0hs3yHTVg/view?usp=sharing",
+        whatsappMsg:
+          "Hola Magic Voice Studio, vi el Video de Cumpleaños para Papá en Drive y quiero cotizar uno igual",
       },
     ],
   },
@@ -534,12 +602,6 @@ export function TikTokLandingView() {
   const [selectedService, setSelectedService] = useState<ServiceCardItem | null>(
     null
   );
-  const [selectedSampleIndex, setSelectedSampleIndex] = useState(0);
-
-  useEffect(() => {
-    setSelectedSampleIndex(0);
-  }, [selectedService]);
-
   const handleOpenService = (item: ServiceCardItem) => {
     setSelectedService(item);
   };
@@ -547,10 +609,6 @@ export function TikTokLandingView() {
   const handleCloseModal = () => {
     setSelectedService(null);
   };
-
-  const activeSample = selectedService
-    ? selectedService.samples[selectedSampleIndex] ?? selectedService.samples[0]
-    : null;
 
   const generalWhatsAppUrl = buildWhatsAppUrl(
     "Hola Magic Voice Studio, quiero hacer una consulta o pedido especial desde TikTok"
@@ -713,21 +771,21 @@ export function TikTokLandingView() {
         </footer>
       </div>
 
-      {/* MODAL LIMPIO PARA VER MUESTRAS INTERACTIVAS Y PEDIR POR WHATSAPP */}
-      {selectedService && activeSample && (
+      {/* MODAL LIMPIO PARA VER MUESTRAS INTERACTIVAS Y PEDIR POR WHATSAPP (EN FORMATO VERTICAL) */}
+      {selectedService && (
         <div
-          className="fixed inset-0 z-50 bg-slate-950/60 backdrop-blur-xs flex items-center justify-center p-3 sm:p-5 overflow-y-auto animate-fadeIn"
+          className="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-xs flex items-center justify-center p-3 sm:p-5 overflow-y-auto animate-fadeIn"
           role="dialog"
           aria-modal="true"
           onClick={handleCloseModal}
         >
           <div
-            className="relative w-full max-w-md bg-white rounded-[32px] overflow-hidden shadow-2xl border border-rose-100 flex flex-col my-auto"
+            className="relative w-full max-w-lg bg-white rounded-[32px] overflow-hidden shadow-2xl border border-rose-100 flex flex-col max-h-[92vh] my-auto"
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Header del Modal */}
+            {/* Header Fijo del Modal */}
             <div
-              className={`flex items-center justify-between px-5 py-3.5 border-b border-slate-100 ${selectedService.pillBg}`}
+              className={`sticky top-0 z-20 flex items-center justify-between px-5 py-3.5 border-b border-slate-100/90 bg-white/95 backdrop-blur-md ${selectedService.pillBg}`}
             >
               <div className="flex items-center gap-2.5 min-w-0 pr-2">
                 <div
@@ -743,7 +801,9 @@ export function TikTokLandingView() {
                     {selectedService.title}
                   </h4>
                   <p className="text-[11px] text-slate-500 font-medium truncate">
-                    {activeSample.label}
+                    {selectedService.samples.length > 1
+                      ? `${selectedService.samples.length} opciones en video disponibles`
+                      : selectedService.shortSubtitle}
                   </p>
                 </div>
               </div>
@@ -751,118 +811,135 @@ export function TikTokLandingView() {
               <button
                 type="button"
                 onClick={handleCloseModal}
-                className="w-8 h-8 rounded-full bg-white/90 hover:bg-rose-600 text-slate-600 hover:text-white border border-slate-200/80 flex items-center justify-center font-bold text-xs cursor-pointer transition-colors shadow-2xs"
+                className="w-8 h-8 rounded-full bg-white/90 hover:bg-rose-600 text-slate-600 hover:text-white border border-slate-200/80 flex items-center justify-center font-bold text-xs cursor-pointer transition-colors shadow-2xs shrink-0"
                 aria-label="Cerrar ventana"
               >
                 ✕
               </button>
             </div>
 
-            {/* Selector de Muestras si la categoría tiene varias */}
-            {selectedService.samples.length > 1 && (
-              <div className="px-4 pt-3 pb-2 bg-slate-50/70 border-b border-slate-100">
-                <div className="flex items-center justify-between mb-1.5">
-                  <span className="text-[10px] font-extrabold uppercase tracking-wider text-slate-500">
-                    Muestras disponibles ({selectedService.samples.length}):
-                  </span>
-                  <span className="text-[10px] font-bold text-rose-500">
-                    {selectedSampleIndex + 1} de {selectedService.samples.length}
-                  </span>
-                </div>
-                <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-thin">
-                  {selectedService.samples.map((sample, idx) => {
-                    const isSelected = idx === selectedSampleIndex;
-                    return (
-                      <button
-                        key={sample.id}
-                        type="button"
-                        onClick={() => setSelectedSampleIndex(idx)}
-                        className={`px-3 py-1 rounded-full text-xs font-bold whitespace-nowrap cursor-pointer transition-all ${
-                          isSelected
-                            ? "bg-slate-900 text-white shadow-xs scale-[1.02]"
-                            : "bg-white hover:bg-slate-100 text-slate-700 border border-slate-200/80"
-                        }`}
-                      >
+            {/* Lista Vertical de Muestras en Video (una debajo de otra en formato vertical) */}
+            <div className="flex-1 overflow-y-auto p-4 sm:p-5 space-y-6 overscroll-contain">
+              {selectedService.samples.map((sample, idx) => (
+                <div
+                  key={sample.id}
+                  className="bg-slate-50/90 border border-slate-200/80 rounded-2xl p-3.5 sm:p-4 flex flex-col items-center shadow-xs"
+                >
+                  {/* Título de la Opción de Video */}
+                  <div className="w-full flex items-center justify-between gap-2 mb-3">
+                    <div className="flex items-center gap-2 min-w-0">
+                      {selectedService.samples.length > 1 && (
+                        <span className="w-6 h-6 rounded-full bg-slate-900 text-white text-[11px] font-bold flex items-center justify-center shrink-0">
+                          {idx + 1}
+                        </span>
+                      )}
+                      <h5 className="text-xs sm:text-sm font-extrabold text-slate-900 truncate">
                         {sample.label}
-                      </button>
-                    );
-                  })}
-                </div>
-              </div>
-            )}
-
-            {/* Visor de Video / Muestra Interactiva */}
-            <div className="p-4 bg-white flex flex-col items-center">
-              <div className="w-full h-[360px] sm:h-[400px] rounded-2xl overflow-hidden bg-slate-950 shadow-inner border border-slate-200">
-                {activeSample.videoEmbedId ? (
-                  <iframe
-                    key={activeSample.videoEmbedId}
-                    src={`https://www.tiktok.com/player/v1/${activeSample.videoEmbedId}`}
-                    title={activeSample.label}
-                    className="w-full h-full border-0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  />
-                ) : activeSample.canvaEmbed ? (
-                  <iframe
-                    key={activeSample.canvaEmbed}
-                    src={activeSample.canvaEmbed}
-                    title={activeSample.label}
-                    className="w-full h-full border-0"
-                    allowFullScreen
-                  />
-                ) : activeSample.driveEmbed ? (
-                  <iframe
-                    key={activeSample.driveEmbed}
-                    src={activeSample.driveEmbed}
-                    title={activeSample.label}
-                    className="w-full h-full border-0"
-                    allow="autoplay; encrypted-media; picture-in-picture"
-                    allowFullScreen
-                  />
-                ) : (
-                  <div className="w-full h-full flex flex-col items-center justify-center p-6 text-center text-slate-400 bg-slate-900">
-                    <span className="text-3xl mb-2">✨</span>
-                    <span className="text-sm font-bold text-white">
-                      Muestra Privada / Personalizada
-                    </span>
-                    <span className="text-xs text-slate-400 mt-1">
-                      Contáctanos por WhatsApp para enviarte ejemplos exclusivos de este servicio
-                    </span>
+                      </h5>
+                    </div>
+                    {selectedService.samples.length > 1 && (
+                      <span className="text-[10px] font-bold text-rose-500 bg-rose-50 border border-rose-200/60 px-2 py-0.5 rounded-full shrink-0">
+                        Opción {idx + 1} de {selectedService.samples.length}
+                      </span>
+                    )}
                   </div>
-                )}
-              </div>
+
+                  {/* Visor de Video Vertical (Aspect Ratio 9:16 móvil / TikTok) */}
+                  <div className="w-full max-w-[310px] sm:max-w-[325px] aspect-[9/16] rounded-2xl overflow-hidden bg-slate-950 shadow-inner border border-slate-200 relative">
+                    {sample.videoEmbedId ? (
+                      <iframe
+                        key={sample.videoEmbedId}
+                        src={`https://www.tiktok.com/player/v1/${sample.videoEmbedId}`}
+                        title={sample.label}
+                        className="w-full h-full border-0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        loading="lazy"
+                      />
+                    ) : sample.canvaEmbed ? (
+                      <iframe
+                        key={sample.canvaEmbed}
+                        src={sample.canvaEmbed}
+                        title={sample.label}
+                        className="w-full h-full border-0"
+                        allowFullScreen
+                        loading="lazy"
+                      />
+                    ) : sample.driveEmbed ? (
+                      <iframe
+                        key={sample.driveEmbed}
+                        src={sample.driveEmbed}
+                        title={sample.label}
+                        className="w-full h-full border-0"
+                        allow="autoplay; encrypted-media; picture-in-picture"
+                        allowFullScreen
+                        loading="lazy"
+                      />
+                    ) : (
+                      <div className="w-full h-full flex flex-col items-center justify-center p-6 text-center text-slate-400 bg-slate-900">
+                        <span className="text-3xl mb-2">✨</span>
+                        <span className="text-sm font-bold text-white">
+                          Muestra Privada / Personalizada
+                        </span>
+                        <span className="text-xs text-slate-400 mt-1">
+                          Contáctanos por WhatsApp para enviarte ejemplos exclusivos de este servicio
+                        </span>
+                      </div>
+                    )}
+                  </div>
+
+                  {/* Botones de Acción para esta Opción */}
+                  <div className="w-full max-w-[310px] sm:max-w-[325px] mt-3 flex flex-col gap-2">
+                    <a
+                      href={buildWhatsAppUrl(
+                        `${selectedService.whatsappText} (Muestra: ${sample.label})`
+                      )}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="w-full py-2.5 px-4 rounded-xl bg-gradient-to-r from-emerald-500 to-[#25D366] hover:from-emerald-600 hover:to-[#20bd5a] text-white font-bold text-xs flex items-center justify-center gap-1.5 shadow-sm shadow-emerald-500/20 active:scale-95 transition-all text-center"
+                    >
+                      <span>💬 Pedir este modelo por WhatsApp</span>
+                      <span>→</span>
+                    </a>
+
+                    {sample.directUrl && (
+                      <a
+                        href={sample.shortUrl || sample.directUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-full py-2 px-3 rounded-xl bg-white hover:bg-slate-100 text-slate-600 border border-slate-200/90 font-bold text-[11px] flex items-center justify-center gap-1 transition-colors text-center"
+                      >
+                        <span>
+                          {sample.directUrl.includes("drive.google.com")
+                            ? "Ver en Drive ↗"
+                            : sample.directUrl.includes("canva.com")
+                            ? "Abrir Canva ↗"
+                            : "Ver en TikTok ↗"}
+                        </span>
+                      </a>
+                    )}
+                  </div>
+                </div>
+              ))}
             </div>
 
-            {/* Botones de Acción */}
-            <div className="p-4 pt-1 bg-white border-t border-slate-100 flex flex-col sm:flex-row items-center gap-2">
-              {activeSample.directUrl && (
-                <a
-                  href={activeSample.shortUrl || activeSample.directUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full sm:w-auto py-3 px-4 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs flex items-center justify-center gap-1 transition-colors"
-                >
-                  <span>
-                    {activeSample.directUrl.includes("drive.google.com")
-                      ? "Ver en Drive ↗"
-                      : activeSample.directUrl.includes("canva.com")
-                      ? "Abrir Canva ↗"
-                      : "Ver en TikTok ↗"}
-                  </span>
-                </a>
-              )}
-
+            {/* Footer Fijo del Modal */}
+            <div className="p-3 bg-white border-t border-slate-100 flex items-center justify-between gap-2">
+              <button
+                type="button"
+                onClick={handleCloseModal}
+                className="py-2 px-4 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold text-xs transition-colors cursor-pointer"
+              >
+                ← Cerrar
+              </button>
               <a
-                href={buildWhatsAppUrl(
-                  `${selectedService.whatsappText} (Muestra: ${activeSample.label})`
-                )}
+                href={generalWhatsAppUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full sm:flex-1 py-3 px-5 rounded-xl bg-gradient-to-r from-emerald-500 to-[#25D366] hover:from-emerald-600 hover:to-[#20bd5a] text-white font-bold text-xs flex items-center justify-center gap-2 shadow-md shadow-emerald-500/20 active:scale-95 transition-all"
+                className="py-2 px-4 rounded-xl bg-gradient-to-r from-[#FF7A95] to-[#FF8FA3] hover:from-[#f56c88] hover:to-[#ff8196] text-white font-bold text-xs flex items-center gap-1.5 transition-all shadow-xs"
               >
-                <span>💬 Pedir este modelo por WhatsApp</span>
-                <span>→</span>
+                <span>Consultar por WhatsApp</span>
+                <span>💬</span>
               </a>
             </div>
           </div>
