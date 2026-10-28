@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev --webpack",
     "build": "next build --webpack",
+    "export-pack": "next build --webpack && python package_export.py",
     "start": "next start",
     "lint": "eslint ."
   },
