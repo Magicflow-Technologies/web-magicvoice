@@ -465,7 +465,7 @@ const SERVICES: ServiceItem[] = [
     samples: [
       {
         id: "invitacion-tiktok-video",
-        label: "🎬 Muestra en Video (TikTok)",
+        label: "🎬 Muestra en Video Invitación",
         videoUrl: "https://www.tiktok.com/player/v1/7608301647248313608",
         externalVideoUrl:
           "https://www.tiktok.com/@magicvoice10/video/7608301647248313608",
@@ -473,7 +473,7 @@ const SERVICES: ServiceItem[] = [
       },
       {
         id: "invitacion-canva-interactiva",
-        label: "📱 Vista Interactiva Canva",
+        label: "✨ Solicita Información y Diseño Personalizado",
         videoUrl:
           "https://www.canva.com/design/DAG2ldjxOTs/O_elylaAp8A6yaGFKkgkBQ/view?embed",
         externalVideoUrl:
@@ -541,13 +541,6 @@ const SERVICES: ServiceItem[] = [
         externalVideoUrl:
           "https://www.tiktok.com/@magicvoice10/video/7622099861764197653",
       },
-      {
-        id: "cumple-ejemplo-4",
-        label: "🌟 Cumpleaños Ejemplo 4",
-        videoUrl: "https://www.tiktok.com/player/v1/7607604168496385288",
-        externalVideoUrl:
-          "https://www.tiktok.com/@magicvoice10/video/7607604168496385288",
-      },
     ],
     sampleHighlights: [
       "Personalizado con el personaje o temática favorita del cumpleañero",
@@ -590,16 +583,16 @@ const SERVICES: ServiceItem[] = [
       "https://drive.google.com/file/d/1E99sUG4pJUoW5URuWBbqJQmQXitSlcRl/view?usp=sharing",
     samples: [
       {
-        id: "hora-loca-fiesta-boda",
-        label: "🎉 Fiesta - Boda",
+        id: "hora-loca-boda-cristiana",
+        label: "💒 Fiesta Boda Cristiana",
         videoUrl:
           "https://drive.google.com/file/d/1E99sUG4pJUoW5URuWBbqJQmQXitSlcRl/preview",
         externalVideoUrl:
           "https://drive.google.com/file/d/1E99sUG4pJUoW5URuWBbqJQmQXitSlcRl/view?usp=sharing",
       },
       {
-        id: "hora-loca-boda-cristiana",
-        label: "💒 Fiesta Boda Cristiana",
+        id: "hora-loca-boda-avion",
+        label: "✈️ Fiesta Boda Temática Avión",
         videoUrl:
           "https://drive.google.com/file/d/1oPz6bDPydtKSx980OqYOW-Lra3CtHDaH/preview",
         externalVideoUrl:

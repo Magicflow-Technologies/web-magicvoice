@@ -326,22 +326,22 @@ const TIKTOK_ALL_SERVICES: ServiceCardItem[] = [
     samples: [
       {
         id: "inv-tiktok",
-        label: "🎬 Muestra en Video (TikTok)",
+        label: "🎬 Muestra en Video Invitación",
         videoEmbedId: "7608301647248313608",
         directUrl: "https://www.tiktok.com/@magicvoice10/video/7608301647248313608",
         shortUrl: "https://vt.tiktok.com/ZSgPXd53f/",
         whatsappMsg:
-          "Hola Magic Voice Studio, vi la Invitación Digital en TikTok y quiero cotizarla",
+          "Hola Magic Voice Studio, vi la Muestra en Video de Invitación y quiero cotizarla",
       },
       {
         id: "inv-canva",
-        label: "📱 Vista Interactiva Canva",
+        label: "✨ Solicita Información y Diseño Personalizado",
         directUrl:
           "https://www.canva.com/design/DAG2ldjxOTs/O_elylaAp8A6yaGFKkgkBQ/view",
         canvaEmbed:
           "https://www.canva.com/design/DAG2ldjxOTs/O_elylaAp8A6yaGFKkgkBQ/view?embed",
         whatsappMsg:
-          "Hola Magic Voice Studio, quiero cotizar una Invitación Digital interactiva con cuenta regresiva y GPS",
+          "Hola Magic Voice Studio, deseo solicitar información y diseño personalizado para mi Invitación Digital",
       },
     ],
   },
@@ -383,14 +383,6 @@ const TIKTOK_ALL_SERVICES: ServiceCardItem[] = [
         whatsappMsg:
           "Hola Magic Voice Studio, vi el Video de Cumpleaños Ejemplo 3 en TikTok y quiero cotizarlo",
       },
-      {
-        id: "cumple-4",
-        label: "🌟 Cumpleaños Ejemplo 4",
-        videoEmbedId: "7607604168496385288",
-        directUrl: "https://www.tiktok.com/@magicvoice10/video/7607604168496385288",
-        whatsappMsg:
-          "Hola Magic Voice Studio, vi el Video de Cumpleaños Ejemplo 4 en TikTok y quiero cotizarlo",
-      },
     ],
   },
   {
@@ -407,31 +399,24 @@ const TIKTOK_ALL_SERVICES: ServiceCardItem[] = [
       "Hola Magic Voice Studio, quiero cotizar un Video para Hora Loca",
     samples: [
       {
-        id: "hora-loca-fiesta-boda",
-        label: "🎉 Fiesta - Boda",
+        id: "hora-loca-boda-cristiana",
+        label: "💒 Fiesta Boda Cristiana",
         driveEmbed:
           "https://drive.google.com/file/d/1E99sUG4pJUoW5URuWBbqJQmQXitSlcRl/preview",
         directUrl:
           "https://drive.google.com/file/d/1E99sUG4pJUoW5URuWBbqJQmQXitSlcRl/view?usp=sharing",
         whatsappMsg:
-          "Hola Magic Voice Studio, vi el Video de Hora Loca para Fiesta - Boda y quiero cotizarlo",
+          "Hola Magic Voice Studio, vi el Video de Hora Loca Fiesta Boda Cristiana y quiero cotizarlo",
       },
       {
-        id: "hora-loca-boda-cristiana",
-        label: "💒 Fiesta Boda Cristiana",
+        id: "hora-loca-boda-avion",
+        label: "✈️ Fiesta Boda Temática Avión",
         driveEmbed:
           "https://drive.google.com/file/d/1oPz6bDPydtKSx980OqYOW-Lra3CtHDaH/preview",
         directUrl:
           "https://drive.google.com/file/d/1oPz6bDPydtKSx980OqYOW-Lra3CtHDaH/view?usp=sharing",
         whatsappMsg:
-          "Hola Magic Voice Studio, vi el Video de Hora Loca Fiesta Boda Cristiana y quiero cotizarlo",
-      },
-      {
-        id: "hora-loca-boda-avion",
-        label: "✈️ Video Boda Temática Avión",
-        directUrl: "https://wa.me/51939218802",
-        whatsappMsg:
-          "Hola Magic Voice Studio, quiero cotizar el Video de Hora Loca para Boda Temática Avión",
+          "Hola Magic Voice Studio, vi el Video de Hora Loca Fiesta Boda Temática Avión y quiero cotizarlo",
       },
     ],
   },
@@ -913,7 +898,7 @@ export function TikTokLandingView() {
                           {sample.directUrl.includes("drive.google.com")
                             ? "Ver en Drive ↗"
                             : sample.directUrl.includes("canva.com")
-                            ? "Abrir Canva ↗"
+                            ? "Ver Muestra Interactiva ↗"
                             : "Ver en TikTok ↗"}
                         </span>
                       </a>
